@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Temple Expense Tracker</title>
+  <link rel="stylesheet" href="whether.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>🛕 Temple Expense Tracker</h2>
+    <h3>Total Balance</h3>
+    <h1 id="balance">₹0.00</h1>
+
+    <div class="inc-exp-container">
+      <div>
+        <h4>Donations</h4>
+        <p id="money-plus" class="money plus">₹0.00</p>
+      </div>
+      <div>
+        <h4>Expenses</h4>
+        <p id="money-minus" class="money minus">₹0.00</p>
+      </div>
+    </div>
+
+    <h3>Transaction History</h3>
+    <ul id="list" class="list"></ul>
+
+    <h3>Add New Transaction</h3>
+    <form id="form">
+      <input type="text" id="text" placeholder="e.g. prasad for aarti" />
+      <input type="number" id="amount" placeholder="Enter amount (use minus for expense)" />
+      <button type="submit" class="btn">Add Entry</button>
+    </form>
+  </div>
+
+  <script src="whether.js"></script>
+</body>
+</html>

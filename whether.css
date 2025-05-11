@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f6fa;
+  padding: 40px;
+  text-align: center;
+}
+
+.container {
+  background: #fff;
+  margin: auto;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+h3, h4 {
+  margin: 10px 0;
+}
+
+#balance {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.inc-exp-container {
+  display: flex;
+  justify-content: space-between;
+  background: #eee;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.money.plus {
+  color: green;
+}
+
+.money.minus {
+  color: red;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.list li {
+  background: #f1f1f1;
+  padding: 10px;
+  margin: 6px 0;
+  display: flex;
+  justify-content: space-between;
+  border-right: 6px solid;
+}
+
+.list li.plus {
+  border-color: green;
+}
+
+.list li.minus {
+  border-color: red;
+}
+
+.btn {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+input[type="text"], input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
